@@ -1,0 +1,320 @@
+@media (max-width:1024px){
+  a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    color: #222222;
+  }
+  h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 62px;
+  }
+  h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  h4, summary{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    align-items: center;
+  }
+  p, li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: inherit;
+  }
+
+  ul{
+    list-style-type:none;
+  }
+  details[open] > summary >img{
+    transform: rotate(90deg);
+  }
+  button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  input,textarea{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #6C757D;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.12);
+  }
+  .container{
+    max-width: 960px;
+    margin: 0 auto;
+    height: 100%;
+  }
+  .title{
+    max-width: 610px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .title p {
+    margin-top: 24px;
+  }
+    body{
+        max-width: 1024px;
+      }
+    .header__figure{
+        position: absolute;
+        width: 1024px;
+        height: 1520px; 
+    
+        background: linear-gradient(306.44deg, #8731E8 0%, #4528DC 100%);
+        border-radius: 120px;
+        transform: rotate(-45deg);
+        top: -1000px;
+        left: 200px;
+          
+        z-index: -1;
+      }
+      .header__nav {
+        max-width: 960px;
+        height: 84px;
+        padding: 16px 15px;
+        margin: 0 32px;
+      }
+      .header__main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: start;
+
+        margin: 55px 32px 0;
+      }
+      .header__main__text{
+        max-width: 530px;
+        min-height: 426px;
+        margin-top: calc(103px - 55px);
+      }
+      .header__main__text p{
+        max-width: 530px;
+      }
+      .headerPhone{
+        max-width: 370px;
+      }
+
+      .premFeatures{
+        margin: 100px 32px ;
+    }
+      .premFeatures .title {
+        max-width: 611px;
+      }
+      .premFeatures__card {
+        width: 290px;
+        height: 272px;
+        padding: 24px;
+    }
+
+    .workFaster {
+        padding: 100px 32px;
+      }
+        .workFaster__flex {
+          max-width: 960px;
+          height: 550px;
+        }
+        .workFasterImg {
+          width: 206px;
+          height: 100%;
+        }
+        .workFaster__text {
+          width: 450px;
+          height: 500px;
+        }
+        .workFaster__list{
+          width: 402px;
+          height: 280px;
+        }
+
+      .sharePhotos__main {
+        width: 960px;
+        height: 576px;
+        padding: 0 15px;
+        margin: 0 32px;
+      }
+      .sharePhotos__text {
+        width: 450px;
+        height: 100%;
+      }
+      .sharePhotos__list {
+        width: 100%;
+        height: 100%;
+      }
+       .sharePhoto__mainImg{
+        margin-left: 15%;
+    }
+
+    .appWork {
+      padding: 100px 32px;
+    }
+    .title{
+      max-width: 610px;
+    }
+    .appWork__main {
+      max-width: 960px;
+    }
+    .appWork__main__card {
+      max-width: 290px;
+    }
+    
+  .smplBtfl {
+    max-width: 960px;
+    margin: 100px auto;
+  }
+  .smplBtfl>.title{
+    max-width: 609.98px;
+  }
+  .smplBtfl__main {
+    width: 930px;
+    height: 100%;
+    padding: 15px 0;
+    margin: 80px auto 0;
+  }
+  .smplBtfl__main__card {
+    width: 210px;
+    height: 373px;
+    margin:12px;
+  }
+  .smplBtfl__main__card img{
+    width: inherit;
+    height: inherit;
+  }
+  .review {
+    padding: 100px 0;
+  }
+  .review__container{
+    width: 610px;
+    height: 419px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .review__main__slide{
+    width: 610px;
+    height: 400px;
+
+    overflow: hidden;
+  }
+  .review__main__line{
+    /* width: 610px; */
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+
+  }
+  .review__main__card{
+    /* width: 610px; */
+    height: 400px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+  }
+  .review__main__card:last-child{
+    width: 513px;
+  }
+  .unlock>.title{
+    width: 610px;
+  }
+  .unlock__main {
+    max-width: 660px;
+    margin: 80px auto;
+  }
+  .unlock__main__card {
+    position: relative;
+    width: 320px;
+    height: 542.42px;
+    padding: 48px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 5.008px 14px rgba(45, 49, 54, 0.09);
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .question>.container > .title{
+    width: 610px;
+  }
+  .question__main {
+    width: 640px;
+  }
+  .question__main__questionContainer {
+    width: 609px;
+    height: 100%;
+  }
+  .subscribe>.title {
+    max-width: 610px;
+  }
+  .subscribe {
+    margin: 100px 0;
+  }
+  .subscribe__main {
+    width: 610px;
+  }
+
+  .tuned {
+    background: #F6F9FE;
+    padding: 100px 32px ;
+  }
+  .tuned__main {
+    width: 100%;
+    margin: 80px auto 0;
+  }
+  .tuned__main__contactInfo {
+    width: 370px;
+    height: 100%;
+  }
+  .tuned__contactInfoContainer {
+    margin-top: calc(24px - 16px) ;
+  }
+  .tuned__form{
+    width: 480px;
+    height: 450px;
+  }
+
+}
