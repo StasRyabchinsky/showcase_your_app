@@ -32,7 +32,6 @@
     </script>
   </head>
   <body id="body">
-    
     <div class="header" id="Header">
       <div class="header__figure"></div>
       <div class="container">
@@ -689,31 +688,35 @@
           </div>
           <form action="#" method="get" class="tuned__form" id="formFooter">
             <input
+              tabindex="1"
               id="userName"
               name="userName"
               type="text"
               placeholder="Name"
             />
             <input
+              tabindex="2"
               id="userEmail"
               name="userEmail"
               type="email"
               placeholder="Email"
             />
             <input
+              tabindex="3"
               id="userSubject"
               name="userSubject"
               type="text"
               placeholder="Subject"
             />
             <textarea
+              tabindex="4"
               id="userMessage"
               name="message"
               type="textarea"
               cols="30"
               rows="10"
             ></textarea>
-            <button type="submit" title="submit">
+            <button tabindex="5" type="submit" title="submit">
               <img src="./assets/logo/tunedButton.svg" alt="" /> Send Message
             </button>
           </form>
